@@ -118,11 +118,20 @@ text-align: left;
 }
 
 .button {
-width: Hug (146px);
-height: Hug (51px);
-padding: 16px, 32px, 16px, 32px;
-border-radius: 100px;
-gap: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+    padding: 16px 32px;
+    margin-top: 32px;
+    display:inline-block;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #885df1;
+    border-radius: 60px;
+
 }
 
 
