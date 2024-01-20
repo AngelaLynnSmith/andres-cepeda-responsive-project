@@ -9,6 +9,16 @@ background-color: black;
     margin: 0 auto;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+section {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 header  {
     background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
     url("../images/andres-cepeda-7.JPG");
@@ -65,10 +75,47 @@ header a {
 
 
 footer  {
-    text-align: center;
+    background-image: linear-gradient(
+    rgba(0,0,0,0.9), 
+    rgba(0,0,0,0.)
+    ),
+    url("../images/andres-cepeda-9.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    color: white;
 }
 
-@media (max-width: 900px)  {
+footer h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 20px;
+    opacity: 0.7;
+}
+
+footer ul  {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    color: white;
+    opacity: 0.7;
+}
+
+@media (max-width: 960px)  {
     header {
         padding: 60px 0;
     }
