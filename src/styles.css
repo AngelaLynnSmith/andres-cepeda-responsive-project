@@ -48,6 +48,10 @@ background-color: black;
 max-width: 100%;
 }
 
+  img {
+        filter: contrast(1);
+      }
+
 .text-center {
     text-align: center;
 
@@ -66,6 +70,10 @@ section.secondary  {
     background-size: cover;
     padding: 100px 0;
     
+}
+
+section.secondary h2  {
+     margin: 20px 0 50px 0 ;
 }
 section.tertiary    {
     background-color: white;
@@ -234,7 +242,7 @@ footer a {
   display: grid;
   margin-top: 10px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 30px;
 }
 
 .video {
