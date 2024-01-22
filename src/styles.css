@@ -286,7 +286,12 @@ footer a {
     padding: 30px;
   }
 
-  .footer {
-    background-image: none;
+
+  footer {
+    background-image: none !important;
+  }
+
+  .secondary {
+    background-image: none !important;
   }
 }
